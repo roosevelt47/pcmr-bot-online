@@ -1,0 +1,10 @@
+[tool]
+[tool.poetry]
+authors = ["Jasraj <rsvlt.04.coder@gmail.com>"]
+name = "root"
+version = "0.0.0"
+[tool.poetry.dependencies]
+"discord.py" = "*"
+flask = "*"
+python = "^3.7"
+python-dotenv = "^0.13.0"
