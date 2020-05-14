@@ -13,19 +13,17 @@ client = commands.Bot(command_prefix = '?')
 @client.event
 async def on_ready():
     print('Skynet Online')
-    channel = client.get_channel(707947663638790185)
+    channel = client.get_channel(710109338311852042)
     await channel.send('Skynet Online')
 
 
 @client.command(aliases = ['f','F'])
-async def pay_respect(ctx, amount=1):
+async def resp(ctx, amount=1):
     await ctx.send('F\n'*amount)
 
 @client.command(aliases = ['roasting'])
 async def roast(ctx):
   roasts = ["You’re the reason God created the middle finger.",
-
-"You’re a grey sprinkle on a rainbow cupcake.",
 
 "If your brain was dynamite, there wouldn’t be enough to blow your hat off.",
 
@@ -53,13 +51,10 @@ async def roast(ctx):
 
 "Your face makes onions cry.",
 
-"The only way my husband would ever get hurt during an activity is if the TV exploded.",
-
 "You look so pretty. Not at all gross, today.",
 
 "It’s impossible to underestimate you.",
 
-"Her teeth were so bad she could eat an apple through a fence.",
 
 "I’m not insulting you, I’m describing you.",
 
@@ -67,13 +62,10 @@ async def roast(ctx):
 
 "Keep rolling your eyes, you might eventually find a brain.",
 
-"Your face is just fine but we’ll have to put a bag over that personality.",
-
 "You bring everyone so much joy, when you leave the room.",
 
 "I thought of you today. It reminded me to take out the trash.",
 
-"Don’t worry about me. Worry about your eyebrows.",
 
 "You are the human version of period cramps.",
 
@@ -84,8 +76,6 @@ async def roast(ctx):
 "I’d rather treat my baby’s diaper rash than have lunch with you.",
 
 "Don’t worry, the first 40 years of childhood are always the hardest.",
-
-"I may love to shop but I will never buy your bull.",
 
 "I love what you’ve done with your hair. How do you get it to come out of your nostrils like that?",
 
@@ -101,7 +91,7 @@ async def roast(ctx):
 
 
 @client.command(aliases = ['8b'])
-async def _8ball(ctx, * , question):
+async def _8b(ctx, * , question):
     responses = ['As I see it, yes.',
  'Ask again later.',
  'Better not tell you now.',
@@ -152,4 +142,4 @@ async def ping(ctx):
 
 keep_alive()
 
-client.run('NzEwMTA1OTc5NDc1MzI5MDc0.XrvoeA.KYTvE_ZrpYOSvyq9cV381XEmMuY')
+client.run('NzEwMTA1OTc5NDc1MzI5MDc0.Xry_Dw.NvaMwUgIQiBBPFxTEcSAqbwdifU')
